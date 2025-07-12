@@ -1,0 +1,42 @@
+interface Player {
+    name: string;
+    sex: 'men' | 'women';
+}
+
+export const players: Player[] = [
+    { name: "Richard", sex: "men" },
+    { name: "Luísa", sex: "women" },
+    { name: "Igor", sex: "men" },
+    { name: "Victoria", sex: "women" },
+    { name: "Heitor", sex: "men" },
+    { name: "Orilio", sex: "men" },
+    { name: "Nayene", sex: "women" },
+    { name: "Bilim", sex: "men" },
+    { name: "Ana", sex: "women" },
+    { name: "Lucas", sex: "men" },
+    { name: "Thiago", sex: "men" },
+    { name: "Raih", sex: "men" },
+    { name: "Beatriz", sex: "women" },
+    { name: "Rafael", sex: "men" },
+    { name: "Renata", sex: "women" },
+    { name: "Gabriel", sex: "men" },
+    { name: "Luiz", sex: "men" },
+    { name: "Valmir", sex: "men" },
+    { name: "Kauanny", sex: "women" },
+    { name: "Diego", sex: "men" },
+    { name: "Vinicius", sex: "men" },
+    { name: "Rodrigo", sex: "men" },
+    { name: "Joao", sex: "men" },
+    { name: "Aisha", sex: "women" },
+    { name: "Victor", sex: "men" },
+    { name: "Daniele", sex: "women" },
+    { name: "Nathan", sex: "men" },
+    { name: "Guilherme", sex: "men" },
+    { name: "Matheus", sex: "men" },
+    { name: "Isadora", sex: "women" },
+    { name: "Isac", sex: "men" },
+    { name: "Danilo", sex: "men" },
+    { name: "Maike", sex: "men" },
+    { name: "Maressa", sex: "women" },
+    { name: "Jakeline", sex: "women" },
+];
