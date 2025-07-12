@@ -150,7 +150,7 @@ export default function Home() {
             selectionMode="multiple"
           >
             {sortedPlayers.map((player) => (
-              <SelectItem key={player.name} value={player.name}>{player.name}</SelectItem>
+              <SelectItem key={player.name}>{player.name}</SelectItem>
             ))}
           </Select>
 
@@ -161,7 +161,7 @@ export default function Home() {
             onSelectionChange={(keys) => setSelectedTeamQuantity(keys as Set<string>)}
           >
             {teamQuantityOptions.map((option) => (
-              <SelectItem key={option.value} value={option.value}>{option.label}</SelectItem>
+              <SelectItem key={option.value}>{option.label}</SelectItem>
             ))}
           </Select>
 
